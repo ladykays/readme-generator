@@ -51,13 +51,13 @@ const questions = [
   },
   {
     type: "input",
-    message: "How can a user as questions about this application?",
+    message: "How can a user ask questions about this application?",
     name: "questions",
   },
   {
     type: "input",
     message: "What is your gitHub username?",
-    name: "username",
+    name: "github",
   },
   {
     type: "input",
