@@ -1,9 +1,9 @@
-# GHJS
+# README GENERATOR
 
-  undefined
+  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]
 
   ## Description
-  jghj has
+  A professional readme generator
 
   ## Table of Contents
   * [Technologies](#technologies)
@@ -15,26 +15,28 @@
   * [Tests](#tests)
   
   ## Technologies Used
-  HTML,CSS
+  * JavaScript  
+* Node 
+
 
   ## Installation 
-  khfd
+  Install
 
   ## Usage
-  hk
+  Use
 
-  ## license
-  This project is licensed under the MIT License.
-  [Read license](undefined)
+  ## License
+  This project is licensed under the Apache License v2.0.
+  [Read license](https://opensource.org/licenses/Apache-2.0)
 
   ## Contributing
-  hiuh
+  contribute
 
   ## Questions
-  iy
-  * Checkout my [github](https://github.com/hh)
-  * Send me an [email](mailto:jhfdj@jkh.com).
+  lkj
+  * Checkout my [github](https://github.com/kjh)
+  * Send me an [email](mailto:jkl@hkgk.com).
 
   ## Tests
-  ghkhh
+  hkh
 

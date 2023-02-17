@@ -17,7 +17,8 @@ function generateMarkdown(data) {
   * [Tests](#tests)
   
   ## Technologies Used
-  ${data.technologies}
+  ${data.technologies.map(tech => `* ${tech}`).join(`  \n`)} 
+
 
   ## Installation 
   ${data.installation}
@@ -25,7 +26,7 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
 
-  ## license
+  ## License
   This project is licensed under the ${data.license}.
   [Read license](${licenseLink(data.license)})
 
@@ -44,20 +45,22 @@ function generateMarkdown(data) {
 
 // function to get badge using the users chosen license
 const licenseBadge = licenseChoice => {
-  licenseChoice === "None" ? "None" 
-  : licenseChoice === "Apache License v2.0" ? "https://img.shields.io/badge/License-Apache_2.0-blue.svg" 
-  : licenseChoice === "GNU General Public License v3.0" ? "https://img.shields.io/badge/License-GPLv3-blue.svg" 
-  : "https://img.shields.io/badge/License-MIT-yellow.svg";
+  return licenseChoice == "None" ? "None" 
+  : licenseChoice == "Apache License v2.0" ? `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]` 
+  : licenseChoice == "GNU General Public License v3.0" ? `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]` 
+  : licenseChoice == "MIT License" ? `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]`
+  : `Invalid licence`;
 }
   
 
 
 // function to get link using the users chosen license
 const licenseLink = licenseChoice => {
-  licenseChoice === "None" ? "None" 
-  : licenseChoice === "Apache License v2.0" ? "https://opensource.org/licenses/Apache-2.0" 
-  : licenseChoice === "GNU General Public License v3.0" ? "https://www.gnu.org/licenses/gpl-3.0" 
-  : "https://opensource.org/licenses/MIT";
+  return licenseChoice == "None" ? "None" 
+  : licenseChoice == "Apache License v2.0" ? "https://opensource.org/licenses/Apache-2.0" 
+  : licenseChoice == "GNU General Public License v3.0" ? "https://www.gnu.org/licenses/gpl-3.0" 
+  : licenseChoice == "MIT License" ? "https://opensource.org/licenses/MIT"
+  :`Invalid license`;
 }
 
 
