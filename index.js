@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require('path');
 const inquirer = require("inquirer");
-//const generateMarkdown = require("./utils/generateMarkdown"); //TODO: throws an error "Cannot find module './utils/generateMarkdown" even after installing the utils npm package
+const generateMarkdown = require("./utils/generateMarkdown");
 const emailCheck = require("node-email-check");
 
 
@@ -71,15 +71,31 @@ const questions = [
   },
 
 ];
-console.log(questions);
+
+//console.log(questions); 
+
+
 
 // function to write README file
 function writeToFile(fileName, data) {
+  fs.writeFile(fileName, data,  (err) =>
+    err ? console.error(err) : console.log("File saved to README.md")
+  );
 }
+
 
 // function to initialize program
 function init() {
+  inquirer.prompt(questions)
+  then((response) => {
+    // Convert the response object to a string
+    const responseString = JSON.stringify(response);
+    writeToFile("README.md", responseString + "\n", (err) => {
+      console.error("err");
+    });
 
+    
+  });
 }
 
 // function call to initialize program
