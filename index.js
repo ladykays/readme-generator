@@ -44,6 +44,12 @@ const questions = [
     name: "licence",
     choices: ["Apache License v2.0", "GNU General Public License v3.0", "MIT License", "None"]
   },
+  /* {
+    type: "checkbox",
+    message: "Please select a color for your licence badge",
+    name: "badgeColor",
+    choices: ["brightgreen", "green", "yellow", "orange", "red", "blue", "lightgray", "blueviolet"]
+  }, */
   {
     type: "input",
     message: "What are your contributions guidelines for this project?",
@@ -87,10 +93,10 @@ function writeToFile(fileName, data) {
 // function to initialize program
 function init() {
   inquirer.prompt(questions)
-  then((response) => {
+  .then((response) => {
     // Convert the response object to a string
-    const responseString = JSON.stringify(response);
-    writeToFile("README.md", responseString + "\n", (err) => {
+    //const responseString = JSON.stringify(response);
+    writeToFile("README.md", generateMarkdown(response) + "\n", (err) => {
       console.error("err");
     });
 
