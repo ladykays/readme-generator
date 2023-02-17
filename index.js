@@ -17,11 +17,11 @@ const questions = [
     message: "Please provide a short description of the project",   
     name: "description",
   },
-  {
+  /* {
     type: "input",
     message: "Please provide a table of contents",
     name: "tableOfContents",
-  },
+  }, */
   {
     type: "checkbox",
     message: "What technologies did you use to build the project?",   
@@ -40,13 +40,13 @@ const questions = [
   },
   {
     type: "checkbox",
-    message: "Please select a licence",
-    name: "licence",
+    message: "Please select a license",
+    name: "license",
     choices: ["Apache License v2.0", "GNU General Public License v3.0", "MIT License", "None"]
   },
   /* {
     type: "checkbox",
-    message: "Please select a color for your licence badge",
+    message: "Please select a color for your license badge",
     name: "badgeColor",
     choices: ["brightgreen", "green", "yellow", "orange", "red", "blue", "lightgray", "blueviolet"]
   }, */
