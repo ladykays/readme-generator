@@ -1,9 +1,9 @@
-# Generate Readme
+# README Generator
 
-  ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
+  Invalid licence
 
   ## Description
-  kjh ljhjlkjew lkjwer
+  This is a command-line application which dynamically creates a professional README.md file from a user’s input. 
 
   ## Table of Contents
   * [Technologies](#technologies)
@@ -16,33 +16,31 @@
   
  
   ## Installation 
-  hjlher lkjkj klje
+  
 
   ## Usage
-  hjkh fhjlhwljwe lkjklw erlkj wer
+  
+
+  ## Screenshot
+  
+
+  ## Demo
+  undefined
 
   ## License
-  This project is licensed under the Apache License v2.0.
-  [Read license](https://opensource.org/licenses/Apache-2.0)
+  This project is licensed under the [](Invalid license).
 
   ## Contributing
-  jlkwerj jk ewjlk gwkjwehkkj
+  
 
   ## Questions
-  lkjwe kljw lkjlre
-  * Checkout my [github](https://github.com/jew)
-  * Send me an [email](mailto:khr@khghk.hjh).
+  
+  * Checkout my [github](https://github.com/)
+  * Send me an [email](mailto:).
 
   ## Tests
-  ljwe ljwkj lkweri 
+  
 
   ## Technologies Used
-  * HTML  
-* CSS  
-* JavaScript  
-* Java  
-* jQuery  
-* Bootstrap  
-* Node  
-* React 
+   
 

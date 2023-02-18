@@ -23,9 +23,14 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
 
+  ## Screenshot
+  ${data.screenshot}
+
+  ## Demo
+  ${data.demo}
+
   ## License
-  This project is licensed under the ${data.license}.
-  [Read license](${licenseLink(data.license)})
+  This project is licensed under the [${data.license}](${licenseLink(data.license)}).
 
   ## Contributing
   ${data.contributing}

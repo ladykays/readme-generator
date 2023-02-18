@@ -45,12 +45,16 @@ const questions = [
     name: "license",
     choices: ["Apache License v2.0", "GNU General Public License v3.0", "MIT License", "None"]
   },
-  /* {
-    type: "checkbox",
-    message: "Please select a color for your license badge",
-    name: "badgeColor",
-    choices: ["brightgreen", "green", "yellow", "orange", "red", "blue", "lightgray", "blueviolet"]
-  }, */
+  {
+    type: "input",
+    message: "Please provide a link to your screenshot",
+    name: "screenshot",
+  }, 
+  {
+    type: "input",
+    message: "Please provide a link to your .gif file",
+    name: "gif",
+  },
   {
     type: "input",
     message: "What are your contributions guidelines for this project?",
