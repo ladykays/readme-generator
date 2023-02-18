@@ -1,9 +1,9 @@
-# Readme Generator
+# Generate Readme
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
+  ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
 
   ## Description
-  A readme generator app	
+  kjh ljhjlkjew lkjwer
 
   ## Table of Contents
   * [Technologies](#technologies)
@@ -16,27 +16,33 @@
   
  
   ## Installation 
-  Install
+  hjlher lkjkj klje
 
   ## Usage
-  Use
+  hjkh fhjlhwljwe lkjklw erlkj wer
 
   ## License
-  This project is licensed under the MIT License.
-  [Read license](https://opensource.org/licenses/MIT)
+  This project is licensed under the Apache License v2.0.
+  [Read license](https://opensource.org/licenses/Apache-2.0)
 
   ## Contributing
-  contribute
+  jlkwerj jk ewjlk gwkjwehkkj
 
   ## Questions
-  question
-  * Checkout my [github](https://github.com/hkjk)
-  * Send me an [email](mailto:jhl@jh.com).
+  lkjwe kljw lkjlre
+  * Checkout my [github](https://github.com/jew)
+  * Send me an [email](mailto:khr@khghk.hjh).
 
   ## Tests
-  instruct
+  ljwe ljwkj lkweri 
 
   ## Technologies Used
-  * JavaScript  
-* Node 
+  * HTML  
+* CSS  
+* JavaScript  
+* Java  
+* jQuery  
+* Bootstrap  
+* Node  
+* React 
 
