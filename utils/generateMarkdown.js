@@ -16,10 +16,7 @@ function generateMarkdown(data) {
   * [Questions](#questions)
   * [Tests](#tests)
   
-  ## Technologies Used
-  ${data.technologies.map(tech => `* ${tech}`).join(`  \n`)} 
-
-
+ 
   ## Installation 
   ${data.installation}
 
@@ -40,6 +37,9 @@ function generateMarkdown(data) {
 
   ## Tests
   ${data.tests}
+
+  ## Technologies Used
+  ${data.technologies.map(tech => `* ${tech}`).join(`  \n`)} 
 `;
 }
 
@@ -52,7 +52,6 @@ const licenseBadge = licenseChoice => {
   : `Invalid licence`;
 }
   
-
 
 // function to get link using the users chosen license
 const licenseLink = licenseChoice => {
