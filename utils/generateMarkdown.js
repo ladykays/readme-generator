@@ -30,7 +30,7 @@ function generateMarkdown(data) {
   ${data.demo}
 
   ## License
-  This project is licensed under the [${data.license}](${licenseLink(data.license)}).
+  This project is licensed under the ${data.license}. [View licence](${licenseLink(data.license)})
 
   ## Contributing
   ${data.contributing}

@@ -27,7 +27,7 @@ const questions = [
     type: "checkbox",
     message: "What technologies did you use to build the project?",   
     name: "technologies",
-    choices: ["HTML", "CSS", "JavaScript", "Java", "jQuery", "Bootstrap", "Node", "React", "PHP", "C", "Other"],
+    choices: ["HTML", "CSS", "JavaScript", "Java", "jQuery", "Bootstrap", "Node.js", "NPM", "React", "PHP", "C", "Other"],
   },
   {
     type: "input",
@@ -40,7 +40,7 @@ const questions = [
     name: "usage",
   },
   {
-    type: "radio",
+    type: "checkbox",
     message: "Please select a license",
     name: "license",
     choices: ["Apache License v2.0", "Boost Software Licence 1.0", "BSD 3-Clause License", "BSD 2-Clause License", "Eclipse Public License 1.0", "GNU GPL General Public License v3.0","GNU GPL General Public License v2.0", "IBM Public License Version 1.0", "ISC License", "MIT License", "Mozilla Public License 2.0", "The Unlicence"]
