@@ -46,9 +46,9 @@ function generateMarkdown(data) {
 // function to get badge using the users chosen license
 const licenseBadge = licenseChoice => {
   return licenseChoice == "None" ? "None" 
-  : licenseChoice == "Apache License v2.0" ? `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]` 
-  : licenseChoice == "GNU General Public License v3.0" ? `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]` 
-  : licenseChoice == "MIT License" ? `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]`
+  : licenseChoice == "Apache License v2.0" ? `![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)` 
+  : licenseChoice == "GNU General Public License v3.0" ? `![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)` 
+  : licenseChoice == "MIT License" ? `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
   : `Invalid licence`;
 }
   
