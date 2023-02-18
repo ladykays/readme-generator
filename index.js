@@ -40,10 +40,10 @@ const questions = [
     name: "usage",
   },
   {
-    type: "checkbox",
+    type: "radio",
     message: "Please select a license",
     name: "license",
-    choices: ["Apache License v2.0", "GNU General Public License v3.0", "MIT License", "None"]
+    choices: ["Apache License v2.0", "Boost Software Licence 1.0", "BSD 3-Clause License", "BSD 2-Clause License", "Eclipse Public License 1.0", "GNU GPL General Public License v3.0","GNU GPL General Public License v2.0", "IBM Public License Version 1.0", "ISC License", "MIT License", "Mozilla Public License 2.0", "The Unlicence"]
   },
   {
     type: "input",
