@@ -5,6 +5,7 @@ const generateMarkdown = require("./utils/generateMarkdown");
 const emailCheck = require("node-email-check");
 
 
+
 // array of questions for user
 const questions = [
   {
@@ -17,11 +18,11 @@ const questions = [
     message: "Please provide a short description of the project",   
     name: "description",
   },
-  {
+  /* {
     type: "input",
     message: "Please provide a table of contents",
     name: "tableOfContents",
-  },
+  }, */
   {
     type: "checkbox",
     message: "What technologies did you use to build the project?",   
@@ -40,10 +41,16 @@ const questions = [
   },
   {
     type: "checkbox",
-    message: "Please select a licence",
-    name: "licence",
+    message: "Please select a license",
+    name: "license",
     choices: ["Apache License v2.0", "GNU General Public License v3.0", "MIT License", "None"]
   },
+  /* {
+    type: "checkbox",
+    message: "Please select a color for your license badge",
+    name: "badgeColor",
+    choices: ["brightgreen", "green", "yellow", "orange", "red", "blue", "lightgray", "blueviolet"]
+  }, */
   {
     type: "input",
     message: "What are your contributions guidelines for this project?",
@@ -51,13 +58,13 @@ const questions = [
   },
   {
     type: "input",
-    message: "How can a user as questions about this application?",
+    message: "How can a user ask questions about this application?",
     name: "questions",
   },
   {
     type: "input",
     message: "What is your gitHub username?",
-    name: "username",
+    name: "github",
   },
   {
     type: "input",
@@ -87,10 +94,10 @@ function writeToFile(fileName, data) {
 // function to initialize program
 function init() {
   inquirer.prompt(questions)
-  then((response) => {
+  .then((response) => {
     // Convert the response object to a string
-    const responseString = JSON.stringify(response);
-    writeToFile("README.md", responseString + "\n", (err) => {
+    //const responseString = JSON.stringify(response);
+    writeToFile("README.md", generateMarkdown(response) + "\n", (err) => {
       console.error("err");
     });
 
