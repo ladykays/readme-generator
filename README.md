@@ -25,7 +25,7 @@
   ![Screenshot](./images/screenshot2.png)
 
   ## Demo
-  Click inage to see the full walkthrough video of the application.
+  [Click Me](https://drive.google.com/file/d/1uCxceQ2KLszsEc2azfJzvw4tK-BOO98C/view) or the image to see the full walkthrough video of the application.
 
   [![App Demo](./images/walkthrough.gif)](https://drive.google.com/file/d/1uCxceQ2KLszsEc2azfJzvw4tK-BOO98C/view)
 
