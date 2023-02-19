@@ -1,9 +1,9 @@
 # README Generator
 
-  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+  ![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)
 
   ## Description
-  This application allows a user to create a professional README.md file dynamically from input entered through the command line. 
+  This application allows a user to create a professional README.md file dynamically from input entered through the command line.
 
   ## Table of Contents
   * [Technologies](#technologies)
@@ -28,7 +28,7 @@
   undefined
 
   ## License
-  This project is licensed under the MIT License. [View licence](https://opensource.org/licenses/MIT)
+  This project is licensed under the Eclipse Public License 1.0. [View licence](https://opensource.org/licenses/EPL-1.0)
 
   ## Contributing
   You are welcome to contribute to this project
@@ -39,7 +39,7 @@
   * Send me an [email](mailto:ladykerrion@yahoo.com).
 
   ## Tests
-  
+  N/A
 
   ## Technologies Used
   * JavaScript  
