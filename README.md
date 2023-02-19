@@ -1,9 +1,9 @@
 # README Generator
 
-  ![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
   ## Description
-  This application allows a user to create a professional README.md file dynamically from input entered through the command line.
+  This application allows a user to create a professional README.md file dynamically from input entered through the command line. 
 
   ## Table of Contents
   * [Technologies](#technologies)
@@ -22,20 +22,22 @@
   To run the application, open Terminal or the command line and type node index.js. You will be prompted with a series of questions; use the up and down arrow keys to navigate multiple-choice questions and hit the space bar to make a selection before hitting enter. After all questions have been answered, you will be notified that the file has been saved to README.md. Open the file and you will see that your README file has been generated.
 
   ## Screenshot
-  ![Screenshot](./images/screenshot.png)
+  ![Screenshot](./images/screenshot2.png)
 
   ## Demo
-  undefined
+  Click inage to see the full walkthrough video of the application.
+
+  [![App Demo](./images/walkthrough.gif)](https://drive.google.com/file/d/1uCxceQ2KLszsEc2azfJzvw4tK-BOO98C/view)
 
   ## License
-  This project is licensed under the Eclipse Public License 1.0. [View licence](https://opensource.org/licenses/EPL-1.0)
+  This project is licensed under the MIT License. [View licence](https://opensource.org/licenses/MIT)
 
   ## Contributing
-  You are welcome to contribute to this project
+  You are welcome to contribute to this project.
 
   ## Questions
   Do you have any questions? Would you like to collaborate on a project?
-  * Checkout my [github](https://github.com/ladykays)
+  * Checkout my [github](https://github.com/ladykays).
   * Send me an [email](mailto:ladykerrion@yahoo.com).
 
   ## Tests
