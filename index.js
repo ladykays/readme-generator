@@ -2,9 +2,6 @@ const fs = require("fs");
 const path = require('path');
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
-const emailCheck = require("node-email-check");
-
-
 
 // array of questions for user
 const questions = [
@@ -18,11 +15,6 @@ const questions = [
     message: "Please provide a short description of the project",   
     name: "description",
   },
-  /* {
-    type: "input",
-    message: "Please provide a table of contents",
-    name: "tableOfContents",
-  }, */
   {
     type: "checkbox",
     message: "What technologies did you use to build the project?",   
@@ -53,7 +45,7 @@ const questions = [
   {
     type: "input",
     message: "Please provide a link to your .gif file",
-    name: "gif",
+    name: "demo",
   },
   {
     type: "input",
@@ -84,8 +76,6 @@ const questions = [
 ];
 
 //console.log(questions); 
-
-
 
 // function to write README file
 function writeToFile(fileName, data) {
