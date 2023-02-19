@@ -89,13 +89,9 @@ function writeToFile(fileName, data) {
 function init() {
   inquirer.prompt(questions)
   .then((response) => {
-    // Convert the response object to a string
-    //const responseString = JSON.stringify(response);
     writeToFile("README.md", generateMarkdown(response) + "\n", (err) => {
-      console.error("err");
-    });
-
-    
+      console.error("There was an error processing the response. Please try again.");
+    });  
   });
 }
 
