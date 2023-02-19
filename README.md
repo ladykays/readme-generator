@@ -16,10 +16,25 @@
   
  
   ## Installation 
-  To ensure a smooth installation of this app, please follow the instructions carefully and in order. Note that this is a command line application, so all commands must be entered in the command line (if on Windows) or Terminal (if on Mac). Before proceeding, please ensure that Node.js and npm are installed on your local computer. [Click](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) for more information on installation,. Download or clone the README Generator repository into your local computer. Create a .gitignore file and include node_modules/ so that your node_modules directory isn't uploaded to GitHub. Make sure to create the .gitignore file before moving to the next step. Install the inquirer npm by entering the command npm install --save inquirer in the Terminal or command line. For more information on this package, please visit [inquirer](https://www.npmjs.com/package/inquirer). Install the node-email-check npm by entering the command npm install --save node-email-check in the Terminal or command line. For more information on this package, please visit [NPM](https://www.npmjs.com/package/node-email-check)
+  To ensure a smooth installation of this app, please follow the instructions carefully and in order. Note that this is a command line application, so all commands must be entered in the command line (if on Windows) or Terminal (if on Mac). 
+  * Before proceeding, please ensure that Node.js and npm are installed on your local computer. [Click](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) for more information on installation,. Download or clone the README Generator repository into your local computer. 
+  * Create a .gitignore file and include node_modules/ so that your node_modules directory isn't uploaded to GitHub. Make sure to create the .gitignore file before moving to the next step. 
+  * Install the inquirer npm by entering the command below in the Terminal or command line: 
+    ```bash
+      npm install --save inquirer
+    ```  
+  For more information on this package, please visit [NPM](https://www.npmjs.com/package/inquirer).
 
   ## Usage
-  To run the application, open Terminal or the command line and type node index.js. You will be prompted with a series of questions; use the up and down arrow keys to navigate multiple-choice questions and hit the space bar to make a selection before hitting enter. After all questions have been answered, you will be notified that the file has been saved to README.md. Open the file and you will see that your README file has been generated.
+  To run the application: 
+  * Open Terminal or the command line and type the following command:
+
+    ```bash
+      node index.js
+    ``` 
+  * You will be prompted with a series of questions; use the up and down arrow keys to navigate multiple-choice questions and hit the space bar to make a selection before hitting the enter key. 
+  * After all questions have been answered, you will be notified that the file has been saved to ```README.md```. 
+  * Open the file and you will see that your README file has been generated.
 
   ## Screenshot
   ![Screenshot](./images/screenshot2.png)
@@ -45,6 +60,6 @@
 
   ## Technologies Used
   * JavaScript  
-* Node.js  
-* NPM 
+  * Node.js  
+  * NPM 
 
