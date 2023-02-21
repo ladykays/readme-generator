@@ -14,7 +14,11 @@
   * [Questions](#questions)
   * [Tests](#tests)
   
- 
+ ## Technologies Used
+  * JavaScript  
+  * Node.js  
+  * NPM 
+  
   ## Installation 
   To ensure a smooth installation of this app, please follow the instructions carefully and in order. Note that this is a command line application, so all commands must be entered in the command line (if on Windows) or Terminal (if on Mac). 
   * Before proceeding, please ensure that Node.js and npm are installed on your local computer. [Click](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) for more information on installation,. Download or clone the README Generator repository into your local computer. 
@@ -58,8 +62,5 @@
   ## Tests
   N/A
 
-  ## Technologies Used
-  * JavaScript  
-  * Node.js  
-  * NPM 
+  
 
