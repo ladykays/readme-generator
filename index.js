@@ -89,7 +89,7 @@ function writeToFile(fileName, data) {
 function init() {
   inquirer.prompt(questions)
   .then((response) => {
-    writeToFile("README.md", generateMarkdown(response) + "\n", (err) => {
+    writeToFile("Sample README.md", generateMarkdown(response) + "\n", (err) => {
       console.error("There was an error processing the response. Please try again.");
     });  
   });
