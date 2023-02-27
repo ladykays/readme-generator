@@ -17,6 +17,9 @@ function generateMarkdown(data) {
   * [Tests](#tests)
   
  
+  ## Technologies Used
+  ${data.technologies.map(tech => `* ${tech}`).join(`  \n`)}
+  
   ## Installation 
   ${data.installation}
 
@@ -41,10 +44,7 @@ function generateMarkdown(data) {
   * Send me an [email](mailto:${data.email}).
 
   ## Tests
-  ${data.tests}
-
-  ## Technologies Used
-  ${data.technologies.map(tech => `* ${tech}`).join(`  \n`)} 
+  ${data.tests} 
 `;
 }
 
